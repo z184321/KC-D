@@ -65,9 +65,9 @@ POSCAR_I1
 
 **功能介绍**
 
-Truncated1.py 用于对 octahedron.py 生成的正八面体晶粒进行截角处理，从而获得截角正八面体晶粒。
+Truncated1.py 用于对 octahedron.py 生成的正八面体晶粒进行截角处理，从而获得截角八面体晶粒。
 
-程序通过截断比例参数 truncation_ratio 控制截角程度，默认值为 0.33。程序沿正八面体的 ±x、±y 和 ±z 六个顶点方向切除尖端区域，从而获得截角正八面体结构。
+程序通过截断比例参数 truncation_ratio 控制截角程度，默认值为 0.33。程序沿正八面体的 ±x、±y 和 ±z 六个顶点方向切除尖端区域，从而获得截角八面体结构。
 
 **程序实现的功能**
 
@@ -106,7 +106,7 @@ POSCAR_E
 POSCAR_F
 POSCAR_I
 
-上述文件为最终得到的截角正八面体金刚石晶粒。
+上述文件为最终得到的截角八面体金刚石晶粒。
 
 **三、Kelvin1.py**
 
@@ -149,26 +149,6 @@ POSCAR_I
 Extended_Kelvin_Structure_CustomPositions.vasp
 
 该文件为最终生成的 16 晶粒扩展 Kelvin 多晶金刚石模型。
-
-**程序运行顺序**
-
-三个 Python 脚本需要按照以下顺序依次运行：
-
-octahedron.py
-↓
-Truncated1.py
-↓
-Kelvin1.py
-
-对应的结构演化过程为：
-
-立方体金刚石晶粒
-↓
-正八面体金刚石晶粒
-↓
-截角正八面体金刚石晶粒
-↓
-16 晶粒扩展 Kelvin 多晶金刚石模型
 
 **运行环境**
 
