@@ -29,12 +29,12 @@
 
 #### 运行必要的文件
 
-- 输入文件："POSCAR_O1"、"POSCAR_A1"、"POSCAR_B1"、"POSCAR_C1"、"POSCAR_D1"、"POSCAR_E1"、"POSCAR_F1"、"POSCAR_I1"（原始正方体晶粒）
+输入文件："POSCAR_O1"、"POSCAR_A1"、"POSCAR_B1"、"POSCAR_C1"、"POSCAR_D1"、"POSCAR_E1"、"POSCAR_F1"、"POSCAR_I1"（原始正方体晶粒）
 - Python 脚本："octahedron.py"
 
 #### 程序生成的文件
 
-- 输出文件："0POSCAR_O"、"0POSCAR_A"、"0POSCAR_B"、"0POSCAR_C"、"0POSCAR_D"、"0POSCAR_E"、"0POSCAR_F"、"0POSCAR_I"（正八面体晶粒）
+输出文件："0POSCAR_O"、"0POSCAR_A"、"0POSCAR_B"、"0POSCAR_C"、"0POSCAR_D"、"0POSCAR_E"、"0POSCAR_F"、"0POSCAR_I"（正八面体晶粒）
 
 ### ===============================
 ### ======== Truncated1.py ========
@@ -54,15 +54,15 @@
 
 #### 运行必要的文件
 
-- 输入文件："0POSCAR_O"、"0POSCAR_A"、"0POSCAR_B"、"0POSCAR_C"、"0POSCAR_D"、"0POSCAR_E"、"0POSCAR_F"、"0POSCAR_I"（由 octahedron.py 生成）
-- Python 脚本："Truncated1.py"
+输入文件："0POSCAR_O"、"0POSCAR_A"、"0POSCAR_B"、"0POSCAR_C"、"0POSCAR_D"、"0POSCAR_E"、"0POSCAR_F"、"0POSCAR_I"（由 octahedron.py 生成）
+Python 脚本："Truncated1.py"
 
 #### 程序生成的文件
 
-- 输出文件："POSCAR_O"、"POSCAR_A"、"POSCAR_B"、"POSCAR_C"、"POSCAR_D"、"POSCAR_E"、"POSCAR_F"、"POSCAR_I"（截角八面体晶粒）
+输出文件："POSCAR_O"、"POSCAR_A"、"POSCAR_B"、"POSCAR_C"、"POSCAR_D"、"POSCAR_E"、"POSCAR_F"、"POSCAR_I"（截角八面体晶粒）
 
 ### =============================
-### ==========  Kelvin1.py  ===========
+### ==========  Kelvin1.py  ========
 ### =============================
 ### ===========20260831============
 
@@ -81,12 +81,12 @@
 
 #### 运行必要的文件
 
-- 输入文件："POSCAR_O"、"POSCAR_A"、"POSCAR_B"、"POSCAR_C"、"POSCAR_D"、"POSCAR_E"、"POSCAR_F"、"POSCAR_I"（由 Truncated1.py 生成）
-- Python 脚本："Kelvin1.py"
+输入文件："POSCAR_O"、"POSCAR_A"、"POSCAR_B"、"POSCAR_C"、"POSCAR_D"、"POSCAR_E"、"POSCAR_F"、"POSCAR_I"（由 Truncated1.py 生成）
+Python 脚本："Kelvin1.py"
 
 #### 程序生成的文件
 
-- 输出文件："Extended_Kelvin_Structure_CustomPositions.vasp"（最终多晶模型 POSCAR）
+输出文件："Extended_Kelvin_Structure_CustomPositions.vasp"（最终多晶模型 POSCAR）
 
 ### 运行依赖
 
